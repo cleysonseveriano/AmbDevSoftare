@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         //System.out.println("Hello world!");
 
-        Ave teste = new Ave("teste", "teste2", 18);
+        Ave teste = new Ave("Frederico", "Papagaio", 5);
 
         teste.comer();
     }
