@@ -2,8 +2,16 @@ package animal;
 
 public class Main {
     public static void main(String[] args) {
-        Animal teste = new Animal("teste" , "teste" , 18);
-        teste.apresentar();
+        Cachorro boiao = new Cachorro("Boião", "Mamífero", 2);
+        boiao.aniversario();
+        boiao.apresentar();
+        boiao.beberAgua();
+
+        Ave frederico = new Ave("Frederico", "Papagaio", 5);
+        frederico.cantar();
+
+
+
 
     }
 }
