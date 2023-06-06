@@ -35,5 +35,11 @@ public class Animal {
         this.idade = idade;
     }
 
+    public void apresentar(){
+        System.out.println("Meu nome é " + getNome());
+        System.out.println("Meu tipo é " + getTipo());
+        System.out.println("Tenho " + getIdade() + " anos");
+    }
+
 
 }
