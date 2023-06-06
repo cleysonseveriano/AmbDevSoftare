@@ -7,9 +7,11 @@ public class Main {
         gertrudes.beberAgua();
 
         // Heric
+            Cachorro boiao = new Cachorro("Boião", "Mamífero", 2);
+            boiao.correr();
 
 
-        // Ícaro
+        // Diego
         Ave frederico = new Ave("Frederico", "Papagaio", 5);
         frederico.cantar();
 
