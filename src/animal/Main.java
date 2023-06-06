@@ -13,8 +13,5 @@ public class Main {
         Ave frederico = new Ave("Frederico", "Papagaio", 5);
         frederico.cantar();
 
-
-
-
     }
 }
