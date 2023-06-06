@@ -2,11 +2,14 @@ package animal;
 
 public class Main {
     public static void main(String[] args) {
-        Cachorro boiao = new Cachorro("Boião", "Mamífero", 2);
-        boiao.aniversario();
-        boiao.apresentar();
-        boiao.beberAgua();
+        // Cleyson
+        Animal gertrudes = new Animal("Gertrudes", "Mamífero", 10);
+        gertrudes.beberAgua();
 
+        // Heric
+
+
+        // Ícaro
         Ave frederico = new Ave("Frederico", "Papagaio", 5);
         frederico.cantar();
 
