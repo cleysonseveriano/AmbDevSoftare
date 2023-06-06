@@ -32,4 +32,7 @@ public class Ave extends Animal{
         System.out.println("Estou comendo semente de girassol");
     }
 
+    public void cantar(){
+        System.out.println("Firifiufiu");
+    }
 }

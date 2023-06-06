@@ -40,7 +40,11 @@ public class Animal {
         System.out.println("Meu tipo é " + getTipo());
         System.out.println("Tenho " + getIdade() + " anos");
     }
-    public void beberAgua(){ System.out.println("estou bebendo água");
+    public void aniversario(){
+        setIdade(getIdade() + 1);
+    }
+    public void beberAgua(){
+        System.out.println("estou bebendo água");
     }
 
 
